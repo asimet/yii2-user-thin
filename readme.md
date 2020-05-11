@@ -18,7 +18,7 @@ Install Composer
             [...]
             {
                 "type": "vcs",
-                "url": "http://composer:2ZJ3axPvqU5Pp2N2pa89@gitlab.segic.cl/segic/yii2-user-thin.git"
+                "url": ""
             }
         ],
         "require": {
@@ -50,12 +50,7 @@ Configuración (web.php)
             'formType' => 'mixed',
             'allowAutoCreation' => false, // Optional
             'forceView' => true, // Optional  (si no quiere usar la vista login del package definir false)
-            'ldapConfig' => [ // Optional
-                'host' => 'ldap.usach.cl',
-                'pass' => 'usach2008',
-                'dn' => 'cn=orcladmin, cn=Users, dc=usach,dc=cl',
-                'users' => 'cn=Users,dc=usach,dc=cl',
-                'filter' => '(uid=%s)'
+            'ldapConfig' => [
             ]
         ],
         [...]
